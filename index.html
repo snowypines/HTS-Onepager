@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>How to Survive at the End of the World</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="./style.css" rel="stylesheet">
+        <script>
+            if (localStorage.getItem('dark-mode') === 'false' || !('dark-mode' in localStorage)) {
+                document.querySelector('html').classList.remove('dark');
+            } else {
+                document.querySelector('html').classList.add('dark');
+            }
+        </script>
+    </head>
+
+    <body class="font-inter antialiased bg-gray-50 text-gray-800 dark:bg-gray-950 dark:text-gray-100 tracking-tight">
+        <div class="overflow-hidden supports-[overflow:clip]:overflow-clip">
+            <div class="max-w-[728px] mx-auto">
+                <div class="w-full bg-white dark:bg-gray-900 border-x border-gray-100 dark:border-gray-800 box-content">
+                    <div class="px-3 md:px-16">
+                        <div class="flex flex-col min-h-screen">
+        
+                            <!-- Header -->
+                            <header class="text-center pt-6">
+                                <!-- Dark mode toggle -->
+                                <div class="flex justify-end mb-2">
+                                    <div class="inline-flex items-center justify-center ml-auto">
+                                        <input type="checkbox" name="light-switch" id="light-switch" class="light-switch sr-only" />
+                                        <label class="relative cursor-pointer p-2" for="light-switch">
+                                            <svg class="dark:hidden" width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                                <path class="fill-gray-300"
+                                                    d="M7 0h2v2H7zM12.88 1.637l1.414 1.415-1.415 1.413-1.413-1.414zM14 7h2v2h-2zM12.95 14.433l-1.414-1.413 1.413-1.415 1.415 1.414zM7 14h2v2H7zM2.98 14.364l-1.413-1.415 1.414-1.414 1.414 1.415zM0 7h2v2H0zM3.05 1.706 4.463 3.12 3.05 4.535 1.636 3.12z" />
+                                                <path class="fill-gray-400"
+                                                    d="M8 4C5.8 4 4 5.8 4 8s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4Z" />
+                                            </svg>
+                                            <svg class="hidden dark:block" width="16" height="16"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path class="fill-gray-500"
+                                                    d="M6.2 1C3.2 1.8 1 4.6 1 7.9 1 11.8 4.2 15 8.1 15c3.3 0 6-2.2 6.9-5.2C9.7 11.2 4.8 6.3 6.2 1Z" />
+                                                <path class="fill-gray-400"
+                                                    d="M12.5 5a.625.625 0 0 1-.625-.625 1.252 1.252 0 0 0-1.25-1.25.625.625 0 1 1 0-1.25 1.252 1.252 0 0 0 1.25-1.25.625.625 0 1 1 1.25 0c.001.69.56 1.249 1.25 1.25a.625.625 0 1 1 0 1.25c-.69.001-1.249.56-1.25 1.25A.625.625 0 0 1 12.5 5Z" />
+                                            </svg>
+                                            <span class="sr-only">Switch to light / dark version</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- Intro -->
+
+
+                                <div class="inline-flex mt-8 mb-10 ">
+                                    <img class="rounded-xl shadow-lg" src="./images/Bookcover-Book1.png" width="300" height="450" alt="Header 01" />
+
+                                    <div class="mb-5" style="margin-left: 4rem; text-align: left;">
+                                      <h1 class="font-inter-tight text-gray-800 dark:text-gray-100 text-4xl mb-1">How to Survive at the End of the World</h1>
+                                      <h1 class="font-inter-tight text-gray-800 dark:text-gray-100 text-2xl mb-6">By RC Joshua</h1>
+                                      <p class="text-lg font-semibold text-gray-600 dark:text-gray-400 mb-4">A LitRPG mixing time magic, humor, fun weapon design, and a unique and interesting class. </p>
+                                      <p class="text-lg text-gray-600 dark:text-gray-400 mb-4">When an accident kicks Sean Lawrence forward in time, he finds himself square in the apocalyptic end-times. The world is doomed, and he only has a mysterious guidebook, a leather jacket, and a home-made knife to keep him company. He could spend his days grinding low-level mobs, gathering rat pelts, and waiting for a chance to escape.</p>
+                                      <p class="text-lg text-gray-600 dark:text-gray-400 mb-4">Or he could rise up, slay dragons, and fight against the odds. Faced with a choice between the dead-end life he’s been living and a possibility of greatness, Sean has to decide if he’s willing to risk his life and more for a chance to save Earth itself. </p>
+                                      <a class="btn-sm text-gray-200 dark:text-gray-800 bg-gradient-to-r from-gray-800 to-gray-700 dark:from-gray-300 dark:to-gray-100 dark:hover:bg-gray-100 shadow relative before:absolute before:inset-0 before:rounded-[inherit] before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white/.2)_50%,transparent_75%,transparent_100%)] dark:before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white)_50%,transparent_75%,transparent_100%)] before:bg-[length:250%_250%,100%_100%] before:bg-[position:200%_0,0_0] before:bg-no-repeat before:[transition:background-position_0s_ease] hover:before:bg-[position:-100%_0,0_0] hover:before:duration-[1500ms]" href="https://www.amazon.com/How-Survive-End-World-Progression-ebook/dp/B0D1LHDB1Z">Buy Book 1</a>
+                                      <a class="btn-sm text-gray-200 dark:text-gray-800 bg-gradient-to-r from-gray-800 to-gray-700 dark:from-gray-300 dark:to-gray-100 dark:hover:bg-gray-100 shadow relative before:absolute before:inset-0 before:rounded-[inherit] before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white/.2)_50%,transparent_75%,transparent_100%)] dark:before:bg-[linear-gradient(45deg,transparent_25%,theme(colors.white)_50%,transparent_75%,transparent_100%)] before:bg-[length:250%_250%,100%_100%] before:bg-[position:200%_0,0_0] before:bg-no-repeat before:[transition:background-position_0s_ease] hover:before:bg-[position:-100%_0,0_0] hover:before:duration-[1500ms]" href="https://www.amazon.com/gp/product/B0D395HH7P">Buy Book 2</a>
+                                    </div>
+                                </div>
+
+
+                            </header>
+        
+                            <!-- Content -->
+                            <main class="grow py-12 space-y-12">
+        
+                                <!-- Experience -->
+                                <section>
+                                    <h2 class="font-inter-tight text-lg font-semibold text-gray-800 dark:text-gray-100 mb-6">Reviews</h2>
+                                    <div class="space-y-1">
+                                        <!-- Post #1 -->
+                                        <article class="p-5 rounded-xl odd:bg-gradient-to-tr odd:from-gray-100 odd:to-gray-50 dark:odd:bg-gradient-to-tr dark:odd:from-gray-800 dark:odd:to-gray-800/[0.65]">
+                                            <div class="sm:flex gap-5">
+                                                <div>
+                                                    <div class="space-y-1.5 mb-3">
+                                                        <div class="text-[13px] font-medium text-gray-600dark:text-gray-400">Different from Deadworld, but just as Good</div>
+                                                    </div>
+                                                    <p class="text-sm text-gray-600 dark:text-gray-400">R.C. has proven beyond a reasonable doubt that Deadworld Isekai was not a fluke – the man writes the good words.</p>
+                                                    <p class="text-sm text-gray-600 dark:text-gray-400">A clueless but earnest protagonist, Sean offers a believable window into how an average person would react when thrust into a system-apocalypse style future. Almost immediately, we the reader are immersed in a strange new world with little more explanation into how things work than the MC.</p>
+                                                    <p class="text-sm text-gray-600 dark:text-gray-400">The story is only in its infancy but it has all the ingredients to make it an enjoyable long term read. I can’t judge what hasn’t been published yet, but having read the author’s other work I feel comfortable saying that if you’re enjoying the story by chapter 10, you’ll continue to do so. If you don’t, it might not be for you.</p>
+                                                </div>
+                                            </div>
+                                        </article>
+
+                                        <!-- Post #1 -->
+                                        <article class="p-5 rounded-xl odd:bg-gradient-to-tr odd:from-gray-100 odd:to-gray-50 dark:odd:bg-gradient-to-tr dark:odd:from-gray-800 dark:odd:to-gray-800/[0.65]">
+                                          <div class="sm:flex gap-5">
+                                              <div>
+                                                  <div class="space-y-1.5 mb-3">
+                                                      <div class="text-[13px] font-medium text-gray-600dark:text-gray-400">Just a few chapters in and I’m hooked!</div>
+                                                  </div>
+                                                  <p class="text-sm text-gray-600 dark:text-gray-400">As a fan of this writer’s other novel, I have to say that this is looking like a winner, too! Savvy self-aware protagonist; interesting world-building, situations, and challenges; clever, high-quality writing … what’s not to like? Too often, characters in web novels are just not that smart — like the horror movie red shirt walking alone into the basement, the hero is mostly just carrying the idiot ball. But just eight chapters in, I can tell that this story features a thoughtful, rational hero who does not make me yell in protest at his poor life choices. I’m looking forward to more.</p>
+                                              </div>
+                                          </div>
+                                      </article>
+                                        
+                                      <!-- Post #3 -->
+                                      <article class="p-5 rounded-xl odd:bg-gradient-to-tr odd:from-gray-100 odd:to-gray-50 dark:odd:bg-gradient-to-tr dark:odd:from-gray-800 dark:odd:to-gray-800/[0.65]">
+                                        <div class="sm:flex gap-5">
+                                            <div>
+                                                <div class="space-y-1.5 mb-3">
+                                                    <div class="text-[13px] font-medium text-gray-600dark:text-gray-400">The only book that does "junk crafting" right!</div>
+                                                </div>
+                                                <p class="text-sm text-gray-600 dark:text-gray-400"> I like to tool around in my worshop and take trash to create stuff that looks awful, but works. I've looked for years for a story that captured that feeling and method of building things in an action packed fantasy world, but to no success. Until I found this book. The story is excellent, the character is a kind but practical man, and the crafting and powers he gets are out of this world hilarious. I feel like I'm sitting in my garage with duct tape and hot glue working alongside him every time I read a chapter. Do yourself a favor and give it a read. </p>
+                                            </div>
+                                        </div>
+                                    </article>
+                                    </div>
+                                </section>
+        
+                              
+        
+                                
+                                
+        
+                            </main>
+        
+                            <!-- Footer -->
+                            <footer class="space-y-12 text-center pb-16">
+                                
+                                    <p class="text-sm text-gray-400 dark:text-gray-600">&copy; Potomac Stories. All rights reserved.</p>
+                                </div>
+                            </footer>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/vendors/alpinejs.min.js" defer></script>
+        <script src="./js/main.js"></script>
+
+    </body>
+
+</html>
